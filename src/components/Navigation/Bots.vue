@@ -65,6 +65,14 @@
 		grid-template-columns: 1fr 1fr;
 		padding: 0.5em;
 
+    @media screen and (max-width: 350px) {
+			grid-gap: 0.25em;
+		}
+
+    @media screen and (max-height: 590px) {
+			grid-gap: 0.25em;
+		}
+
 		.app--small-navigation & {
 			grid-template-columns: 1fr;
 
@@ -87,6 +95,14 @@
 		overflow: hidden;
 		padding: 0.25em 0.1em;
 		text-shadow: 0 0 1px var(--color-text-dark);
+
+    @media screen and (max-width: 350px) {
+			padding: 0.1em;
+		}
+
+    @media screen and (max-height: 600px) {
+			padding: 0.1em;
+		}
 	}
 
 	.bot-card__value {

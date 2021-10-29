@@ -40,6 +40,14 @@
 		white-space: nowrap;
 		width: 100%;
 
+		@media screen and (max-width: 350px) {
+			padding: 0.5em;
+		}
+
+		@media screen and (max-height: 600px) {
+			padding: 0.5em;
+		}
+
 		.app--small-navigation & {
 			padding: 0.75em 0;
 

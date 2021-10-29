@@ -39,6 +39,14 @@
 		white-space: nowrap;
 		width: 100%;
 
+		@media screen and (max-width: 350px) {
+			padding: 0.75em 1.25em;
+		}
+
+		@media screen and (max-height: 570px) {
+			padding: 0.75em 1.25em;
+		}
+
 		&.navigation-link--active, &:hover {
 			background: var(--color-navigation-dark);
 			color: var(--color-text);
